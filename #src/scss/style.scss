@@ -1,0 +1,54 @@
+body{
+  min-width: 375px;
+  overflow-x: hidden;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+
+@font-face {
+ font-family: "FuturaNewDemi-Reg";
+ src: url("../fonts/FuturaNewDemi-Reg.woff2") format("woff2"),
+       url("../fonts/FuturaNewDemi-Reg.svg") format("svg"),
+        url("../fonts/FuturaNewDemi-Reg.woff") format("woff");
+
+}
+@font-face {
+ font-family: "FuturaNewLight-Reg";
+ src: url("../fonts/FuturaNewLight-Reg.woff2") format("woff2"),
+       url("../fonts/FuturaNewLight-Reg.svg") format("svg"),
+        url("../fonts/FuturaNewLight-Reg.woff") format("woff");
+
+}
+@font-face {
+ font-family: "FuturaNewBook-Reg";
+ src: url("../fonts/FuturaNewBook-Reg.woff2") format("woff2"),
+       url("../fonts/FuturaNewBook-Reg.svg") format("svg"),
+        url("../fonts/FuturaNewBook-Reg.woff") format("woff");
+
+}
+
+.inner {
+  width: 100%;
+}
+.container {
+  max-width: 1172px;
+  margin:auto;
+  padding: 0 15px;
+}
+.owl-stage-outer {
+  padding: 15px 0;
+}
+h2{
+  font-size: 36px;
+}
+@media screen and (max-width: 720px) {
+  h2 {
+    font-size: 20px;
+  }
+}
